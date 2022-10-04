@@ -18,7 +18,7 @@ This application will allow the user to manage the backend portion of their onli
 
 ## Installation
 
-Download the files. Open a bash terminal in the main directory. Run "npm install". You will need mySQL installed and the connection details will need to be updated in the "index.js" file according to your database.
+Download the files. Open a bash terminal in the main directory. Run "npm install". You will need mySQL installed and the connection details will need to be updated in the "index.js" file according to your database. Open a MySQL shell inside the "db" directory and run "source schema.sql;" to create the database. in a bash shell within the main directory of the store API, run "run seed" to seed the database (for testing with the default seed. Make sure to change the seeds directory to meet your needs before running it for your own purposes). Running "npm start" will start up the server.
 
 ## Usage
 
@@ -26,11 +26,9 @@ Run "node index.js" or "npm start". Routes may be accessed through any compatibl
 
 You may view categories, products, and tags through the provided Get routes. Adding an id parameter onto these Get routes will return the requested item. Post routes may be used to add new categories, products, and tags. Put routes are available for updating categories, products, or tags. Finally, Delete routes are available for removing any of the aforementioned. In regards to deletion, a category cannot be deleted if it currently contains products.
 
-[Video Link of Usage]([https://drive.google.com/file/d/1x4Gf5DlQOY4okppMlyFFFLgsNuLeLjIk/view](https://drive.google.com/file/d/1HtGyNsmsxeAB_ruApYgO2_37Ez9nJXiP/view))
+[Video Link of Usage](https://drive.google.com/file/d/1FKWtq_2F7co2sqHqstdTY0i4XhN-CxRw/view)
 
-
-[WebStoreAPI2x.webm](https://user-images.githubusercontent.com/35825121/193735916-a9211592-942f-450c-b2d1-0eaaa1d58798.webm)
-
+[WebStoreAPI2x.webm](https://user-images.githubusercontent.com/35825121/193739893-b311c684-4735-4fa9-910e-16e06c923f6e.webm)
 
 
 ## Questions
