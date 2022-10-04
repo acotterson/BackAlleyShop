@@ -8,7 +8,7 @@ This application will allow the user to manage the backend portion of their onli
 
 ## Table of Contents
 
-- [Human Asset Tracker](#back-alley-shop)
+- [Back Alley Shop](#back-alley-shop)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
