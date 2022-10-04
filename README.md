@@ -24,7 +24,7 @@ Download the files. Open a bash terminal in the main directory. Run "npm install
 
 Run "node index.js" or "npm start". Routes may be accessed through any compatible application. For testing, a program such as Insomnia will provide assurance of a functional API.
 
-You may view categories, products, and tags through the provided Get routes. Adding an id parameter onto these Get routes will return the requested item. Post routes may be used to add new categories, products, and tags. Put routes are available for updating categories, products, or tags. Finally, Delete routes are available for removing any of the aforementioned. In regards to deletion, a a category cannot be deleted if it currently contains products.
+You may view categories, products, and tags through the provided Get routes. Adding an id parameter onto these Get routes will return the requested item. Post routes may be used to add new categories, products, and tags. Put routes are available for updating categories, products, or tags. Finally, Delete routes are available for removing any of the aforementioned. In regards to deletion, a category cannot be deleted if it currently contains products.
 
 [Video Link of Usage]([https://drive.google.com/file/d/1x4Gf5DlQOY4okppMlyFFFLgsNuLeLjIk/view](https://drive.google.com/file/d/1HtGyNsmsxeAB_ruApYgO2_37Ez9nJXiP/view))
 
